@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <link rel="canonical" href="https://icons.getbootstrap.com/icons/globe/">
+    <!-- Latest compiled and minified CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+            
+            document.getElementById("mySidebar").style.width = "250px";
+        }
+
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+            document.getElementById("mySidebar").style.width = "0";
+        }
+    </script>
+
+</head>
+
+<body>
+    <header>
+        <div id="header-container">
+
+            <!-- <div class="row visible-xs">
+                <div class="col-xs-4">
+                    <img class="logo" src="https://www.osborn.com/file/general/osborn_logo.svg">
+
+                </div>
+
+                <div class="col-xs-2">
+                    <button type="button" class="navbar-toggle visible-sm visible-xs" data-toggle="collapse"
+                        data-target="#bottommenu">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="col-xs-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="20" width="20"
+                        class="img-responsive bi bi-globe" viewBox="0 0 16 16">
+                        <path
+                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
+                    </svg>
+                </div>
+
+                <div class="col-xs-4">
+
+                    <span class="en hidden-lg hidden-md">EN</span>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                        class="img-responsive mobsearch bi bi-search hidden-lg hidden-md" viewBox="0 0 16 16">
+                        <path
+                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                    </svg>
+                </div>
+
+            </div> -->
+
+
+            <div class="col-xs-4">
+                <img class="logo" src="https://www.osborn.com/file/general/osborn_logo.svg">
+
+            </div>
+
+            <div class="col-xs-8">
+
+                <div class="sidebar" style="display:none" id="mySidebar">
+                    
+                  
+                <a href="#" class="baritem" onclick="w3_close()">
+                    <span class="glyphicon glyphicon-chevron-left backarrow" ></span>Back 
+                 </a>
+                     <a href="#" class="baritem">Products 
+                    <span class="glyphicon glyphicon-chevron-right productarrow"></span>
+                     </a>
+
+                        
+                         <a href="#"class="baritem">Application
+                            <span class="glyphicon glyphicon-chevron-right apparrow"></span>
+                         </a>
+                         <a href="#"class="baritem">Markets
+                            <span class="glyphicon glyphicon-chevron-right marketsarrow"></span>
+                         </a>
+                         <a href="#"class="baritem">Support
+                            <span class="glyphicon glyphicon-chevron-right supportarrow"></span>
+                         </a>
+                         <a href="#"class="baritem">About
+                            <span class="glyphicon glyphicon-chevron-right aboutarrow"></span>
+                         </a>
+                         <a href="#" class="baritem">Contact
+                            <span class="glyphicon glyphicon-chevron-right contactarrow"></span>
+                         </a>
+                    
+                </div>
+                <button type="button" class="navbar-toggle visible-sm visible-xs collapsed" onclick="w3_open()"
+                    data-toggle="collapse" data-target="#mySidebar" aria-expanded="false">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+           
+                <nav>
+                    <ul class="menu">
+
+                        <li>
+
+                            <div class="Globe-dropdown ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-globe"
+                                    viewBox="0 0 16 16">
+                                    <path
+                                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
+                                </svg>
+              <!-- <img src=" https://www.osborn.com/file/general/ob-globe-icon.svg" class="img-responsive bi bi-globe"    >       -->
+                             
+              <!-- <div class="Globe-dropdown-content hidden-sm hidden-xs"> -->
+                <div class="Globe-dropdown-content">
+                                    <a
+                                        href="#"><b>Region</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Language</b></a>
+                                    <a href="#">North America &nbsp;&nbsp;&nbsp;&nbsp;English</a>
+                                    <a href="#">Global
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;English</a>
+                                    <a
+                                        href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;German</a>
+
+                                </div>
+
+                                <span class=" geng hidden-sm hidden-xs">Global-English</span>
+
+                                <span class=" en hidden-lg hidden-md">EN </span>
+
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor"
+                                        class="img-responsive mobsearch bi bi-search hidden-lg hidden-md"
+                                        viewBox="0 0 16 16">
+                                        <path
+                                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                    </svg>
+                                </span>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="dropdown hidden-sm hidden-xs">
+                                About </br>
+
+
+                                <div class="dropdown-content">
+                                    <a href="#">Why Osborn</a>
+                                    <a href="#">Company History</a>
+                                    <a href="#">Careers</a>
+                                    <a href="#">News</a>
+                                    <a href="#">Events</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="hidden-sm hidden-xs">Contact</li>
+                    </ul>
+                </nav>
+                <nav>
+                    <ul class="bottommenu" id="bottomnav">
+                        <li>
+                            <div class="searchSubmit hidden-sm hidden-xs">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                    <path
+                                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                                </svg>
+                            </div>
+                        </li>
+
+                        <div class="support-dropdown hidden-sm hidden-xs">
+                            <li>SUPPORT
+                                <div class="support-dropdown-content">
+                                    <a href="#">Literature</a>
+                                    <a href="#">Safety Recommendations</a>
+                                    <a href="#">Certificates</a>
+                                    <a href="#">Terms & Conditions</a>
+                                    <a href="#">NewsLetter</a>
+                                </div>
+                            </li>
+                        </div>
+
+                        <div class="markets-dropdown hidden-sm hidden-xs">
+                            <li>MARKETS
+                                <div class="markets-dropdown-content">
+                                    <a href="#">Automotive</a>
+                                    <a href="#">Oil and Gas</a>
+                                    <a href="#">ShipBuilding</a>
+                                    <a href="#">Building and Construction</a>
+                                    <a href="#">Metal Fabrication</a>
+                                    <a href="#">Rolling Mills</a>
+                                </div>
+                            </li>
+                        </div>
+
+                        <li class="hidden-sm hidden-xs">APPLICATION</li>
+
+
+                        <div class="product-dropdown hidden-sm hidden-xs">
+                            <li alt="Products">PRODUCTS
+                                <div class="product-dropdown-content">
+                                    <a href="#">Roller Technologies</a>
+                                    <a href="#">Load Runners</a>
+                                    <a href="#">Power Brushes</a>
+                                    <a href="#">Industrial Brushes</a>
+                                    <a href="#">Strip Brushes</a>
+                                    <a href="#">Cutting and Grinding Tools</a>
+                                    <a href="#">Polishing Tools and Compounds</a>
+                                    <a href="#">Diamond Tools</a>
+                                    <a href="#">Maintenance Brushes</a>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+
+
+    </header>
+
+
+
+
+
+
+    <section></section>
+    <section></section>
+    <section></section>
+    <footer>
+        <div id="footer-container">
+            <div class="col-2 hidden-sm hidden-xs">
+                <p class="copyright">&copy; 2020 Osborn.All Rights Reserved.</p>
+            </div>
+            <div class="col-2 hidden-sm  hidden-xs">
+                <nav>
+                    <ul class="footer-menu">
+                        <li>Careers</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>Legal Information</li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="visible-sm">
+                <div class="col-sm-4">
+                    <p class="copyright">&copy; 2020 Osborn.All Rights Reserved.</p>
+                </div>
+                <div class="col-sm-8">
+                    <nav>
+                        <ul class="footer-menu">
+                            <li>Careers</li>
+                            <li>Privacy Policy</li>
+                            <li>Terms & Conditions</li>
+                            <li>Legal Information</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            
+         <div class="visible-xs">
+             <nav>
+                 <ul class="mobversion">
+                     <li>Careers</li>
+                     <li>Privacy Policy</li>
+                     <li>Terms & Conditions</li>
+                     <li>Legal Information</li>
+                     <li>&copy; 2020 Osborn.All Rights Reserved.</li>
+                 </ul>
+             </nav>
+         </div>
+        </div>
+
+        
+    </footer>
+
+
+
+</body>
+
+</html>
